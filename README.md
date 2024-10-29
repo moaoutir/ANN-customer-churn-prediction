@@ -11,7 +11,7 @@ Customer churn is a critical challenge for businesses, impacting profitability a
 To set up the project, clone the repository and install the required packages:
 
 ```bash
-git clone https://github.com/yourusername/customer-churn-prediction.git
+git clone https://github.com/moaoutir/ANN-customer-churn-prediction.git
 cd customer-churn-prediction
 python -m venv venv             # Create a virtual environment named 'venv'
 source venv/bin/activate        # Activate the virtual environment (use 'venv\Scripts\activate' on Windows)
