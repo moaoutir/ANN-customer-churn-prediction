@@ -53,9 +53,9 @@ def prediction(model, input_data):
     prediction = model.predict(input_data_scaled)
     prediction_proba = prediction[0][0]
     if prediction_proba > 0.5:
-        return "This customer shows a high likelihood of leaving. Consider targeted retention strategies."
+        return f"This customer shows a high likelihood of leaving: {prediction_proba}"
     else:
-        return "This customer is likely to stay. No immediate retention actions may be necessary."
+        return f"This customer is likely to stay: {prediction_proba"
 
 
 
